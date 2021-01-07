@@ -2,10 +2,29 @@ DefinitionBlock ("", "SSDT", 2, "GU502L", "_PATCH", 0x00000000)
 {
     External (_SB_.PCI0.GFX0, DeviceObj)
     External (_SB_.PCI0.LPCB, DeviceObj)
+    External (_SB_.PCI0.XHC.RHUB, DeviceObj)
+    External (_SB_.PR00, ProcessorObj)
     External (_SB_.STAS, IntObj)
     
     If (_OSI ("Darwin"))
     {
+        Method (PMPM, 4, NotSerialized)
+        {
+            If ((Arg2 == Zero))
+            {
+                Return (Buffer (One)
+                {
+                     0x03
+                })
+            }
+            
+            Return (Package (0x02)
+            {
+                "plugin-type",
+                One
+            })
+        }
+        
         // Scope: \_SB
         
         Scope (_SB)
@@ -27,13 +46,13 @@ DefinitionBlock ("", "SSDT", 2, "GU502L", "_PATCH", 0x00000000)
                     
                     Return (Package (0x08)
                     {
-                        "kUSBSleepPowerSupply", 
-                        0x13EC, 
-                        "kUSBSleepPortCurrentLimit", 
-                        0x0834, 
-                        "kUSBWakePowerSupply", 
-                        0x13EC, 
-                        "kUSBWakePortCurrentLimit", 
+                        "kUSBSleepPowerSupply",
+                        0x13EC,
+                        "kUSBSleepPortCurrentLimit",
+                        0x0834,
+                        "kUSBWakePowerSupply",
+                        0x13EC,
+                        "kUSBWakePortCurrentLimit",
                         0x0834
                     })
                 }
@@ -42,6 +61,16 @@ DefinitionBlock ("", "SSDT", 2, "GU502L", "_PATCH", 0x00000000)
             // AWAC
             
             STAS = One
+        }
+        
+        // Scope: \_SB.PR00
+        
+        Scope (_SB.PR00)
+        {
+            Method (_DSM, 4, NotSerialized)
+            {
+                Return (PMPM (Arg0, Arg1, Arg2, Arg3))
+            }
         }
         
         // Scope: \_SB.PCI0.GFX0
@@ -72,6 +101,16 @@ DefinitionBlock ("", "SSDT", 2, "GU502L", "_PATCH", 0x00000000)
                 {
                     Return (0x0F)
                 }
+            }
+        }
+        
+        // Scope: \_SB.PCI0.XHC.RHUB
+        
+        Scope (_SB.PCI0.XHC.RHUB)
+        {
+            Method (_STA, 0, NotSerialized)
+            {
+                Return (Zero)
             }
         }
     }
