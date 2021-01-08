@@ -2,7 +2,7 @@
 Attempt to Hackintosh a 15" ASUS laptop
 
 ### Overall
-This is a Work in Progress, please do not use it for now!
+Stable, robust, but excessive noise fan even on Idle.
 
 ### Specifications
 * Processor: Core i7-10750H 2.6GHz (Turbo Boost up to 5.0GHz)
@@ -13,9 +13,8 @@ This is a Work in Progress, please do not use it for now!
 
 ### What is near 100% completed
 * UHD630 2GB / Metal / DRM works on Chrome
-* USB-C DP to 4K Monitor/TV
 * ALC294 Speaker / Mic / Headphones
-* Brightness, KB Backlit, Volume shortcuts
+* Volume shortcuts
 * Trackpad Gestures / Doesn't stall after KB press
 * USB Ports USB3/C
 * Batt. indicator
@@ -27,6 +26,8 @@ This is a Work in Progress, please do not use it for now!
 * ICC Profile that improves the screen's native color
 
 ### What doesn't work
+* Brightness, KB Backlit
+* USB-C DP to 4K Monitor/TV
 * Apple TV DRM
 
 ### Notes
