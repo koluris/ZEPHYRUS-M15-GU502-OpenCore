@@ -1,9 +1,9 @@
 DefinitionBlock ("", "SSDT", 2, "GU502L", "_PATCH", 0x00000000)
 {
+    External (_SB_.PR00, ProcessorObj)
     External (_SB_.PCI0.GFX0, DeviceObj)
     External (_SB_.PCI0.LPCB, DeviceObj)
     External (_SB_.PCI0.XHC.RHUB, DeviceObj)
-    External (_SB_.PR00, ProcessorObj)
     External (_SB_.STAS, IntObj)
     
     If (_OSI ("Darwin"))
@@ -14,7 +14,7 @@ DefinitionBlock ("", "SSDT", 2, "GU502L", "_PATCH", 0x00000000)
             {
                 Return (Buffer (One)
                 {
-                     0x03
+                    0x03
                 })
             }
             
@@ -58,7 +58,7 @@ DefinitionBlock ("", "SSDT", 2, "GU502L", "_PATCH", 0x00000000)
                 }
             }
             
-            // AWAC
+            // AWAK
             
             STAS = One
         }
