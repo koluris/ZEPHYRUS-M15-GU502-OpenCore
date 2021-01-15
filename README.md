@@ -12,7 +12,7 @@ Stable, robust, but excessive noise fan even on Idle.
 * Wifi & Bluetooth: Intel Wireless AX201
 
 ### What is near 100% completed
-* UHD630 2GB / Metal / DRM works on Chrome
+* UHD630 2GB / 240hz / Metal / DRM on Chrome
 * ALC294 Speaker / Mic / Headphones
 * Volume shortcuts
 * Trackpad Gestures / Doesn't stall after KB press
