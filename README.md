@@ -40,4 +40,4 @@ Stable, robust, but excessive noise fan even on Idle.
 * Use QuickESP to mount EFI partitions with ease (status bar app)
 
 ### Credits
-* Big thanks to ![TMSTweaks](https://www.tmstweaks.com) for the I2C Trackpad solution!
+* Big thanks to <a href="https://www.tmstweaks.com">TMSTweaks</a> for the I2C Trackpad solution!
