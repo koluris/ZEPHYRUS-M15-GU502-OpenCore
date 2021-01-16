@@ -38,3 +38,6 @@ Stable, robust, but excessive noise fan even on Idle.
 ### Notes
 * Use HeliPort to facilitate Intel Wifi usage
 * Use QuickESP to mount EFI partitions with ease (status bar app)
+
+### Credits
+* Big thanks to ![TMSTweaks](https://www.tmstweaks.com) for the I2C Trackpad solution!
