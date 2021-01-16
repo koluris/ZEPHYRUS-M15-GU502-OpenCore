@@ -2,7 +2,7 @@
 Attempt to Hackintosh a 15" ASUS laptop
 
 ### Overall
-Stable, robust, but excessive noise fan even on Idle.
+Stable, robust, but fan noise is audible even on Idle.
 
 ### Specifications
 * Processor: Core i7-10750H 2.6GHz (Turbo Boost up to 5.0GHz)
