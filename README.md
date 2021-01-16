@@ -11,10 +11,12 @@ Stable, robust, but excessive noise fan even on Idle.
 * Hard Disk: PCI NVMe 1TB SSD
 * Wifi & Bluetooth: Intel Wireless AX201
 
+![About](https://raw.githubusercontent.com/dkoluris/ZEPHYRUS-M15-GU502-OpenCore/master/Screenshots/about.jpg)
+
 ### What is near 100% completed
 * UHD630 2GB / 240hz / Metal / DRM on Chrome
 * ALC294 Speaker / Mic / Headphones
-* Volume shortcuts
+* Brightness & Volume shortcuts
 * Trackpad Gestures / Doesn't stall after KB press
 * USB Ports USB3/C
 * Batt. indicator
@@ -25,8 +27,10 @@ Stable, robust, but excessive noise fan even on Idle.
 * Wifi & Bluetooth work, but with experimental driver and HeliPort app (expect some problems)
 * ICC Profile that improves the screen's native color
 
+![Brightness](https://raw.githubusercontent.com/dkoluris/ZEPHYRUS-M15-GU502-OpenCore/master/Screenshots/kb.jpg)
+
 ### What doesn't work
-* Brightness, KB Backlit
+* KB Backlit
 * USB-C DP to 4K Monitor/TV
 * Apple TV DRM
 
