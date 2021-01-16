@@ -25,6 +25,7 @@ Stable, robust, but excessive noise fan even on Idle.
 
 ### Bonus
 * Wifi & Bluetooth work, but with experimental driver and HeliPort app (expect some problems)
+* Set F7 & F8 as brightness shortcuts (see screenshot below)
 * ICC Profile that improves the screen's native color
 
 ![Brightness](https://raw.githubusercontent.com/dkoluris/ZEPHYRUS-M15-GU502-OpenCore/master/Screenshots/kb.jpg)
