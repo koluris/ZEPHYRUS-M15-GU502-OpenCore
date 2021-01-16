@@ -14,7 +14,7 @@ Stable, robust, but excessive noise fan even on Idle.
 ![About](https://raw.githubusercontent.com/dkoluris/ZEPHYRUS-M15-GU502-OpenCore/master/Screenshots/about.jpg)
 
 ### What is near 100% completed
-* UHD630 2GB / 240hz / Metal / DRM on Chrome
+* UHD630 1.5GB / 240hz / Metal / DRM on Chrome
 * ALC294 Speaker / Mic / Headphones
 * Brightness & Volume shortcuts
 * Trackpad Gestures / Doesn't stall after KB press
