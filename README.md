@@ -14,31 +14,31 @@ Stable, robust, but fan noise is audible even on Idle.
 ![About](https://raw.githubusercontent.com/dkoluris/ZEPHYRUS-M15-GU502-OpenCore/master/Screenshots/about.jpg)
 
 ### What is near 100% completed
-* UHD630 1.5GB / 240hz / Metal / DRM on Chrome
-* ALC294 Speaker / Mic / Headphones
-* KB Backlit, Brightness & Volume shortcuts
-* Trackpad Gestures / Doesn't stall after KB press
-* USB Ports USB3/C
+* UHD630 1.5GB, 240hz, Metal, DRM on Chrome
+* ALC294 Speaker, Mic, Headphones
+* KB Backlight, Screen Brightness, Volume shortcuts
+* Full Trackpad Gestures support
+* Profile for USB 3.0, USB 3.1 and USB-C ports
 * Batt. indicator
 * Proper CPU PM (Balanced)
 * Sleep
 
 ### ROG Backlit & Other KB Shortcuts
 * Unzip `macROGAuraCore.zip`
-* On terminal run `chmod +x install.sh`, then execute the script
+* On terminal run `chmod +x install.sh`, then execute the actual script
 * Move `ROG-HID.app` and `ROGSwitch.app` to `/Applications`
 * Enable the extension prompted with `ROG-HID.app`
 * Run `ROGSwitch.app`
 
 ### Bonus
 * Wifi & Bluetooth work, but with experimental driver and HeliPort app (expect some problems)
-* ICC Profile that improves the screen's native color
 * Use QuickESP to mount EFI partitions with ease (status bar app)
+* ICC Profile that improves the screen's native color
 
 ### What doesn't work
 * USB-C DP to 4K Monitor/TV
 * Apple TV DRM
 
 ### Credits
-* Major props to <a href="https://github.com/black-dragon74">BlackDragon74</a> for the port of ROG HID driver.
+* Props to <a href="https://github.com/black-dragon74">BlackDragon74</a> for the port of ROG HID driver.
 * Big thanks to <a href="https://www.tmstweaks.com">TMSTweaks</a> for the I2C Trackpad solution.
