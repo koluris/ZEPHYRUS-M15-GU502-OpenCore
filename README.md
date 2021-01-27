@@ -42,3 +42,4 @@ Stable, robust, but fan noise is audible even on Idle.
 ### Credits
 * Props to <a href="https://github.com/black-dragon74">BlackDragon74</a> for the port of ROG HID driver.
 * Big thanks to <a href="https://www.tmstweaks.com">TMSTweaks</a> for the I2C Trackpad solution.
+* Much appreciated <a href="https://github.com/Alex-V2000">Alex-V2000</a> for the dGPU wake solution.
