@@ -15,9 +15,11 @@ DefinitionBlock ("", "SSDT", 2, "GU502L", "_I2C", 0x00000000)
                 Zero,
                 Zero
             })
+            
             PKG [0x00] = Arg0
             PKG [0x01] = Arg1
             PKG [0x02] = Arg2
+            
             Return (PKG)
         }
         

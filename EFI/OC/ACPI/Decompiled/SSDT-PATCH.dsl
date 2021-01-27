@@ -34,13 +34,14 @@ DefinitionBlock ("", "SSDT", 2, "GU502L", "_PATCH", 0x00000000)
             Device (USBX)
             {
                 Name (_ADR, Zero)
+                
                 Method (_DSM, 4, NotSerialized)
                 {
                     If ((Arg2 == Zero))
                     {
                         Return (Buffer (One)
                         {
-                             0x03
+                            0x03
                         })
                     }
                     
@@ -97,6 +98,7 @@ DefinitionBlock ("", "SSDT", 2, "GU502L", "_PATCH", 0x00000000)
             Device (EC)
             {
                 Name (_HID, "EC000000")
+                
                 Method (_STA, 0, NotSerialized)
                 {
                     Return (0x0F)
