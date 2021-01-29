@@ -4,6 +4,9 @@ Attempt to Hackintosh a 15" ASUS laptop
 ### Overall
 Stable, robust, but fan noise is audible even on Idle.
 
+### YouTube Showcase
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/wrfeickuYWI/0.jpg)](https://www.youtube.com/watch?v=wrfeickuYWI)
+
 ### Specifications
 * Processor: Core i7-10750H 2.6GHz (Turbo Boost up to 5.0GHz)
 * Graphics: RTX 2070 Max-Q 8GB GDDR6 / Intel UHD630 (Up to 2GB of shared mem)
@@ -38,8 +41,6 @@ Stable, robust, but fan noise is audible even on Idle.
 ### What doesn't work
 * USB-C DP to 4K Monitor/TV
 * Apple TV DRM
-
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/wrfeickuYWI/0.jpg)](https://www.youtube.com/watch?v=wrfeickuYWI)
 
 ### Credits
 * Props to <a href="https://github.com/black-dragon74">BlackDragon74</a> for the port of ROG HID driver.
