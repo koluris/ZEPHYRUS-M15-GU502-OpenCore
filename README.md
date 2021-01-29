@@ -39,6 +39,8 @@ Stable, robust, but fan noise is audible even on Idle.
 * USB-C DP to 4K Monitor/TV
 * Apple TV DRM
 
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/wrfeickuYWI/0.jpg)](https://www.youtube.com/watch?v=wrfeickuYWI)
+
 ### Credits
 * Props to <a href="https://github.com/black-dragon74">BlackDragon74</a> for the port of ROG HID driver.
 * Big thanks to <a href="https://www.tmstweaks.com">TMSTweaks</a> for the I2C Trackpad solution.
