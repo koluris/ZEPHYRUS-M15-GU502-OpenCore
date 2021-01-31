@@ -18,7 +18,7 @@ Stable, robust, but fan noise is audible even on Idle.
 
 ### What is near 100% completed
 * UHD630 1.5GB / Metal / 240Hz
-* ALC294 Speaker / Headphones / Mic
+* ALC294 Speakers / Headphones / Mic
 * AX201 Wifi (limited bandwidth for now) / Bluetooth / AirDrop / Location Services
 * RGB LED Backlight / Screen & Volume shortcuts
 * Trackpad with Gestures support
