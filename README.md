@@ -1,4 +1,4 @@
-# ZEPHYRUS-M15-GU502-OpenCore
+# ZEPHYRUS-M15-GU502-OpenCore (<a href="https://naden.co">https://naden.co</a>)
 Successful attempt to install macOS on a 15" ASUS Gaming Laptop
 
 ### Overall
